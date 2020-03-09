@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMessage">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="216.0" prefWidth="480.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text fx:id="topicText" layoutX="79.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temat">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="contentText" layoutX="79.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="415.6708984375" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

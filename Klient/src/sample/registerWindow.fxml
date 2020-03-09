@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerRegister">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextField fx:id="nickField" layoutX="94.0" layoutY="35.0" />
+            <Text fx:id="nickText" layoutX="143.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nickname" />
+            <CheckBox fx:id="newsCheck" layoutX="120.0" layoutY="109.0" mnemonicParsing="false" prefWidth="93.0" text="News" />
+            <CheckBox fx:id="socialCheck" layoutX="120.0" layoutY="158.0" mnemonicParsing="false" text="Social media" />
+            <CheckBox fx:id="technoCheck" layoutX="120.0" layoutY="212.0" mnemonicParsing="false" text="Technology" />
+            <CheckBox fx:id="animalsCheck" layoutX="120.0" layoutY="267.0" mnemonicParsing="false" text="Animals" />
+            <CheckBox fx:id="musicCheck" layoutX="120.0" layoutY="322.0" mnemonicParsing="false" text="Music" />
+            <CheckBox fx:id="filmCheck" layoutX="400.0" layoutY="109.0" mnemonicParsing="false" text="Film" />
+            <CheckBox fx:id="lifeCheck" layoutX="400.0" layoutY="158.0" mnemonicParsing="false" text="Lifestyle" />
+            <CheckBox fx:id="sportCheck" layoutX="400.0" layoutY="212.0" mnemonicParsing="false" text="Sport" />
+            <CheckBox fx:id="businessCheck" layoutX="400.0" layoutY="267.0" mnemonicParsing="false" text="Business" />
+            <CheckBox fx:id="scienceCheck" layoutX="400.0" layoutY="322.0" mnemonicParsing="false" text="Science" />
+            <Text fx:id="topicText" layoutX="273.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose topics" textAlignment="CENTER" />
+            <Button fx:id="registerButton" layoutX="552.0" layoutY="355.0" mnemonicParsing="false" onAction="#onActionRegister" text="Register" />
+            <Text fx:id="passText" layoutX="433.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+            <TextField fx:id="passField" layoutX="385.0" layoutY="35.0" />
+            <TextField fx:id="ipField" layoutX="30.0" layoutY="355.0" />
+            <Text layoutX="14.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IP:" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
